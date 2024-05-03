@@ -1,196 +1,195 @@
 <h1
-    align="center"
+     align="center"
 >
-    Algoritmos e Estruturas de Dados
+     Algorithms and Data Structures
 </h1>
 
 <p
-    align="center"
+     align="center"
 >
-    As estruturas de dados são formas de organizar e armazenar dados de forma eficiente. Elas definem como os dados são armazenados na memória, como podem ser acessados e quais operações podem ser realizadas sobre eles, permitem armazenar e manipular grandes volumes de dados de forma organizada e rápida, o que é crucial para área de engenharia de software de forma geral.
+     Data structures are ways of organizing and storing data efficiently. They define how data is stored in memory, how it can be accessed and what operations can be performed on it, they allow storing and manipulating large volumes of data in an organized and fast way, which is crucial for the software engineering area in general. .
 </p>
 
-## Introdução
+## Introduction
 
 <p
-    align="justify"
+     align="justify"
 >
-    As <strong>estruturas de dados</strong> são a espinha dorsal da organização e armazenamento de informações no universo da computação. Imagine um armário gigantesco com diferentes compartimentos, cada um projetado para armazenar um tipo específico de objeto: roupas, livros, rouças e outros. As estruturas de dados funcionam de maneira similar, organizando e gerenciando eficientemente os dados que alimentam nossos softwares e sistemas.
+     <strong>data structures</strong> are the backbone of organizing and storing information in the world of computing. Imagine a gigantic closet with different compartments, each designed to store a specific type of object: clothes, books, clothing and others. Data structures work in a similar way, efficiently organizing and managing the data that feeds our software and systems.
 </p>
 <p
-    align="justify"
+     align="justify"
 >
-    O termo <i>"estrutura de dados"</i> surgiu na década de 1960, com a publicação do livro <strong>"Estruturas de Dados e Algoritmos"</strong> de <i>Donald Knuth</i>. Essa obra seminal consolidou a importância das estruturas de dados como base fundamental para a ciência da computação.
+     The term <i>"data structure"</i> emerged in the 1960s, with the publication of the book <strong>"Data Structures and Algorithms"</strong> by <i>Donald Knuth</i>. This seminal work consolidated the importance of data structures as a fundamental basis for computer science.
 </p>
 <p
-    align="justify"
+     align="justify"
 >
-    Embora a história oficial atribua a Knuth a codificação do termo, a ideia por trás das estruturas de dados existe há séculos. Um dos primeiros exemplos é a <strong>lista</strong>, presente em antigas civilizações para registrar inventários e transações. Com o tempo, essa ideia evoluiu para formas mais complexas, como <strong>arrays</strong>, <strong>pilhas</strong>, <strong>filas</strong>, <strong>árvores</strong> e <strong>gráfos</strong>.
+     Although official history credits Knuth with codifying the term, the idea behind data structures has been around for centuries. One of the first examples is the <strong>list</strong>, present in ancient civilizations to record inventories and transactions. Over time, this idea evolved into more complex forms, such as <strong>arrays</strong>, <strong>stacks</strong>, <strong>queues</strong>, <strong>trees</strong> and <strong> strong>graphs</strong>.
 </p>
 <p
-    align="justify"
+     align="justify"
 >
-    As estruturas de dados permeiam nosso dia a dia digital, desde os aplicativos que utilizamos até os sistemas que gerenciam grandes infraestruturas. Vejamos alguns exemplos:
+     Data structures permeate our daily digital lives, from the applications we use to the systems that manage large infrastructures. Let's look at some examples:
 </p>
 
 <ul
-    align="justify"
+     align="justify"
 >
-    <li>
-        <strong>Bancos de dados:</strong> armazenam e organizam infomações de clientes produtos e transações.
-    </li>
-    <li>
-        <strong>Sistemas de processamento de imagens:</strong> manipulam e analisam imagens digitais, como fotos e vídeos.
-    </li>
-    <li>
-        <strong>Algoritmos de busca:</strong> permitem encontrar rapidamente informações em grandes conjuntos de dados, como na internet.
-    </li>
-    <li>
-        <strong>Compiladores de linguagem:</strong> traduzem código fonte em linguagem de máquina para que computadores possam executá-lo.
-    </li>
-    <li>
-        <strong>Jogos:</strong> criam mundos virtuais interativos e simulam comportamentos realistas.
-    </li>
+     <li>
+         <strong>Databases:</strong> store and organize information about customers, products and transactions.
+     </li>
+     <li>
+         <strong>Image processing systems:</strong> manipulate and analyze digital images, such as photos and videos.
+     </li>
+     <li>
+         <strong>Search algorithms:</strong> allow you to quickly find information in large sets of data, such as on the internet.
+     </li>
+     <li>
+         <strong>Language compilers:</strong> translate source code into machine language so that computers can execute it.
+     </li>
+     <li>
+         <strong>Games:</strong> create interactive virtual worlds and simulate realistic behaviors.
+     </li>
 </ul>
 
 <p
-    align="justify"
+     align="justify"
 >
-    Compreender as estruturas de dados é crucial para qualquer engenheiro de software que deseja desenvolver softwares robustos e eficientes. Através do estudo e da prática, é possível:
+     Understanding data structures is crucial for any software engineer who wants to develop robust and efficient software. Through study and practice, it is possible:
 </p>
 
 <ul
-    align="justify"
+     align="justify"
 >
-    <li>
-        Escolher a estrutura de dados ideal para cada problema, otimizando o desempenho do seu código.
-    </li>
-    <li>
-        Implementar algoritmos complexos com mais clareza e eficiência. 
-    </li>
-    <li>
-        Desenvolver aplicações escaláveis que lidam com grandes volumes de dados.
-    </li>
+     <li>
+         Choose the ideal data structure for each problem, optimizing the performance of your code.
+     </li>
+     <li>
+         Implement complex algorithms with more clarity and efficiency.
+     </li>
+     <li>
+         Develop scalable applications that handle large volumes of data.
+     </li>
 </ul>
 
-## Tipos de Estruturas de Dados
+## Types of Data Structures
 
 <p
-    align="justify"
+     align="justify"
 >
-    Existem diversos tipos de estruturas de dados, cada uma com suas próprias características e aplicações. O mundo das estruturas de dados é vasto e fascinante, composto por diversas ferramentas que organizam e gerenciam informações de forma eficiente. Cada tipo possui características e aplicações únicas, permitindo que engenheiros de softwares resolvam problemas com criatividade e poder. Embora não seja possível listar todas as estruturas de dados existentes, podemos explorar as mais comuns e importantes:
+     There are several types of data structures, each with its own characteristics and applications. The world of data structures is vast and fascinating, made up of diverse tools that organize and manage information efficiently. Each type has unique characteristics and applications, allowing software engineers to solve problems with creativity and power. Although it is not possible to list all existing data structures, we can explore the most common and important ones:
 </p>
 
-<strong>1. ESTRUTURAS DE DADOS LINEARES.</strong>
+<strong>1. LINEAR DATA STRUCTURES</strong>
 
 <p
-    align="justify"
+     align="justify"
 >
-    Estruturas de Dados Lineares são aquelas que organizam os elementos de forma hierárquica ou relacional, ou seja, em uma sequência lógica e ordenada, permitindo acesso não sequencial e relacionamentos complexos. Em outras palavras, cada elemento tem um predecessor e um sucessor, exceto o primeiro e o último elementos, respectivamente. Algumas das características mais comuns das estruturas de dados lineares são:
-</p>
-
-<ul
-    align="justify"
->
-    <li>
-        <strong>Sequência:</strong> os elementos são dispostos em uma ordem linear, um após o outro.
-    </li>
-    <li>
-        <strong>Acesso sequencial:</strong> para acessar um elemento, muitas vezes é necessário percorrer a estrutura desde o início.
-    </li>
-</ul>
-
-<p
-    align="justify"
->
-    Alguns dos tipos mais comuns das estruturas de dados lineares são:
+     Linear Data Structures are those that organize elements in a hierarchical or relational way, that is, in a logical and ordered sequence, allowing non-sequential access and complex relationships. In other words, each element has a predecessor and a successor, except the first and last elements, respectively. Some of the most common characteristics of linear data structures are:
 </p>
 
 <ul
-    align="justify"
+     align="justify"
 >
-    <li>
-        <strong>Array (Vetor):</strong> armazenam uma coleção de elementos de tamanho fixo e do mesmo tipo, acessíveis por índices. Ideal para acesso rápido por índice e operações matemáticas.
-    </li>
-    <li>
-        <strong>Lista ligada:</strong> armazenam elementos em nós iterligados por ponteiros. Permitem inserção e remoção eficientes em qualquer posição, mas acesso por índice pode ser mais lento.
-    </li>
-    <li>
-        <strong>Pilha (stack):</strong> uma coleção que segue o princípio LIFO (Last In, First Out), onde o último elemento a entrar é o primeiro a sair. úteis para desfazer ações, gerenciar pilhas de chamadas e processar expressões matemáticas.
-    </li>
-    <li>
-        <strong>Fila (queue):</strong> um coleção que segue o princípio FIFO (First In, First Out), ou seja, o primeira elemento a entrar é o primeiro a sair. Ideais para filas de espesra, bufferização de dados e processamento de tarefas em ordem.
-    </li>
-</ul>
-
-<strong>2. ESTRUTURAS DE DADOS NÃO LINEARES.</strong>
-
-<p
-    align="justify"
->
-    Estruturas de Dados Não Lineares são aquelas em que os elementos não estão organizados em uma sequência linear ou ordenada. Em vez disso, os elementos estão dispostos de forma que um único elemento pode estar conectado a vários outros elementos, formando uma estrutura hierárquica ou de rede. Algumas das características das estruturas de dados não lineares são:
-</p>
-
-<ul
-    align="justify"
->
-    <li>
-        <strong>Hierarquia:</strong> os elementos podem ter um ou mais relacionamentos hierárquicos, como pais e filhos.
-    </li>
-    <li>
-        <strong>Relacionamento de Rede:</strong> Os elementos podem estar interconectados de maneira complexa, semelhante a uma rede.
-    </li>
+     <li>
+         <strong>Sequence:</strong> the elements are arranged in a linear order, one after the other.
+     </li>
+     <li>
+         <strong>Sequential access:</strong> To access an element, it is often necessary to traverse the structure from the beginning.
+     </li>
 </ul>
 
 <p
-    align="justify"
+     align="justify"
 >
-    Alguns dos tipos mais comuns das estruturas de dados não lineares são:
+     Some of the most common types of linear data structures are:
 </p>
 
 <ul
-    align="justify"
+     align="justify"
 >
-    <li>
-        <strong>Árvores:</strong> armazenam elementos em um hierarquia de nós, onde cada nó pode ter zero ou mais filhos. Úteis para representar estruturas hierárquicas, como árvores de diretórios, árvores de decisão e árvores de expressão.
-    </li>
-    <li>
-        <strong>Grafos:</strong> armazenam elementos (vértices) e as conexões entre eles (arestas), que podem representar redes complexas como redes sociais, mapas de cidades, rotas de transporte e problemas de otimização.
-    </li>
-    <li>
-        <strong>Tabelas Hash:</strong> estruturas que mapeiam chaves para valores em uma estrutura de dados hash, permitindo acesso rápido por chave. Úteis para implementação de dicionários, caches e bases de dados NoSQL.
-    </li>
-    <li>
-        <strong>Conjuntos:</strong> armazenam coleções não ordenadas de elementos únicos, sem duplicatas. Ideais para verificar a presença de elementos, realizar uniões e intersecções de conjuntos e testar conjuntos disjuntos.
-    </li>
+     <li>
+         <strong>Array (Vector):</strong> store a collection of elements of fixed size and the same type, accessible by indexes. Ideal for quick index access and mathematical operations.
+     </li>
+     <li><strong>Linked list:</strong> stores elements in nodes linked by pointers. Allow efficient insertion and removal at any position, but index access may be slower.
+     </li>
+     <li>
+         <strong>Stack:</strong> a collection that follows the LIFO (Last In, First Out) principle, where the last element to enter is the first to leave. useful for undoing actions, managing call stacks, and processing mathematical expressions.
+     </li>
+     <li>
+         <strong>Queue:</strong> a collection that follows the FIFO principle (First In, First Out), that is, the first element to enter is the first to leave. Ideal for queuing, data buffering and in-order processing of tasks.
+     </li>
 </ul>
 
-<strong>3. ESTRUTURAS DE DADOS AVANÇADAS.</strong>
+<strong>2. NONLINEAR DATA STRUCTURES</strong>
 
 <p
-    align="justify"
+     align="justify"
 >
-    Estruturas de Dados Avançadas são blocos fundamentais na organização e manipulação de informações em algoritmos e programas. Elas permitem armazenar, acessar e gerenciar dados de maneira eficiente e adequada.
-</p>
-<p
-    align="justify"
->
-    Alguns dos tipos mais comuns das estruturas de dados avançadas são:
+     Non-Linear Data Structures are those in which the elements are not organized in a linear or ordered sequence. Instead, the elements are arranged so that a single element can be connected to multiple other elements, forming a hierarchical or network structure. Some of the characteristics of nonlinear data structures are:
 </p>
 
 <ul
-    align="justify"
+     align="justify"
 >
-    <li>
-        <strong>Tries:</strong> árvores especializadas para armazenamento e busca eficiente de strings prefixadas. Úteis para autocompletar palavras, roteamento de pacotes e implementação de dicionários.
-    </li>
-    <li>
-        <strong>Filas de Prioridade (Heaps):</strong> estruturas de dados baseadas em árvores que garantem que o elemento de maior ou menor valor esteja sempre na raiz. Ideais para implementação de filas de prioridade, algoritmos de ordenação, algoritmo de dijkstra e seleção de elementos
-    </li>
-    <li>
-        <strong>Blocos de Memória:</strong> Gerenciam a alocação e desalocação de memória em blocos de tamanhos variáveis. Útes para ótimizar o uso da memória em aplicações que alocam e liberam memória com frequência.
-    </li>
-    <!-- <li>
-        <strong>Partição Dinâmica:</strong> 
-    </li> -->
+     <li>
+         <strong>Hierarchy:</strong> elements can have one or more hierarchical relationships, such as parents and children.
+     </li>
+     <li>
+         <strong>Network Relationship:</strong> Elements can be interconnected in a complex way, similar to a network.
+     </li>
+</ul>
+
+<p
+     align="justify"
+>
+     Some of the most common types of nonlinear data structures are:
+</p>
+
+<ul
+     align="justify"
+>
+     <li>
+         <strong>Trees:</strong> store elements in a hierarchy of nodes, where each node can have zero or more children. Useful for representing hierarchical structures such as directory trees, decision trees, and expression trees.
+     </li>
+     <li>
+         <strong>Graphs:</strong> store elements (vertices) and the connections between them (edges), which can represent complex networks such as social networks, city maps, transport routes and optimization problems.
+     </li>
+     <li>
+         <strong>Hash Tables:</strong> structures that map keys to values in a hash data structure, allowing fast access by key. Useful for implementing dictionaries, caches and NoSQL databases.
+     </li>
+     <li>
+         <strong>Sets:</strong> store unordered collections of unique elements, without duplicates. Ideal for checking the presence of elements, performing unions and intersections of sets and testing disjoint sets.
+     </li>
+</ul>
+
+<strong>3. ADVANCED DATA STRUCTURES</strong>
+
+<p
+     align="justify"
+>
+     Advanced Data Structures are fundamental blocks in organizing and manipulating information in algorithms and programs. They allow you to store, access and manage data efficiently and appropriately.
+</p>
+<p
+     align="justify"
+>
+     Some of the most common types of advanced data structures are:
+</p>
+
+<ul
+     align="justify"
+>
+     <li>
+         <strong>Tries:</strong> specialized trees for efficient storage and searching of prefixed strings. Useful for word completion, packet routing and dictionary implementation.
+     </li>
+     <li>
+         <strong>Priority Queues (Heaps):</strong> tree-based data structures that guarantee that the element with the highest or lowest value is always at the root. Ideal for implementing priority queues, sorting algorithms, dijkstra algorithm and element selection
+     </li>
+     <li>
+         <strong>Memory Blocks:</strong> Manage the allocation and deallocation of memory in blocks of variable sizes. Useful for optimizing memory usage in applications that frequently allocate and release memory.
+     </li>
+     <!-- <li>
+         <strong>Dynamic Partition:</strong>
+     </li> -->
 </ul>
