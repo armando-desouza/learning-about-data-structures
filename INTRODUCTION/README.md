@@ -1,18 +1,18 @@
 <h1
     align="center"
 >
-    INTRODUÇÃO
+    INTRODUCTION
 </h1>
 
 <p
      align="justify"
 >
-     <strong>Estruturas de Dados</strong> são a espinha dorsal da organização e armazenamento de informações no mundo da computação. Imagine um armário gigante com diferentes compartimentos, cada um projetado para armazenar um tipo específico de objeto: roupas, livros, vestimentas e outros. Estruturas de Dados funcionam de forma semelhante, organizando e gerenciando eficientemente os dados que alimentam nossos softwares e sistemas.
+     <strong>Data Structures</strong> are the backbone of organizing and storing information in the world of computing. Imagine a gigantic closet with different compartments, each designed to store a specific type of object: clothes, books, clothing and others. Data structures work in a similar way, efficiently organizing and managing the data that feeds our software and systems.
 </p>
 <p
      align="justify"
 >
-     O termo <i>"estrutura de dados"</i> surgiu na década de 1960, com a publicação do livro <strong>"Data Structures and Algorithms"</strong> por <i>Donald Knuth</i>. Este trabalho seminal consolidou a importância das estruturas de dados como base fundamental para a ciência da computação.
+     The term <i>"data structure"</i> emerged in the 1960s, with the publication of the book <strong>"Data Structures and Algorithms"</strong> by <i>Donald Knuth</i>. This seminal work consolidated the importance of data structures as a fundamental basis for computer science.
 </p>
 <p
      align="justify"
