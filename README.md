@@ -1,6 +1,11 @@
 <h1
      align="center"
 >
+     <img
+          src="house.png"
+          alt="Logo"
+          width="120em"
+     /><br/><br/>
      ALGORITHMS AND DATA STRUCTURES
 </h1>
 
